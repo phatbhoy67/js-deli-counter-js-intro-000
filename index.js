@@ -17,9 +17,9 @@ function currentLine(array){
     var str = "The line is currently: ";
     for(var i = 0; i < array.length; i++){
       str += `${i + 1}. ${array[i]},`;
+    } 
+    return str;
     } else {
       return "The line is currently empty.";
-    }
-    return str;
   }
 }
