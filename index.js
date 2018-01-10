@@ -20,6 +20,6 @@ function currentLine(array){
     } else {
       return "The line is currently empty.";
     }
-   return str;
+    return str;
   }
 }
