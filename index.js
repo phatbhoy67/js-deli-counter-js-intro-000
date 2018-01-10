@@ -16,7 +16,7 @@ function currentLine(array){
   if(array.length > 0){
     var str = "The line is currently: ";
       for(var i = 0; i < array.length; i++){
-        str += `${i + 1}. ${array[i]},`;
+        str += `${i + 1}. ${array[i]}, `;
       }
       return str;
   } else {
